@@ -1,0 +1,14 @@
+main(){
+    // variable declarations
+    int a = 1;
+    /* To compare */
+    if(a <= 2){
+        a = a * 2;
+    }else{
+        a = 2;
+    }
+    do{
+        a = a + 1;
+    }while(a < 4)
+    return 0;
+}
